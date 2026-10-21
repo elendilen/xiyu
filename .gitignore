@@ -1,0 +1,11 @@
+node_modules/
+.next/
+out/
+.env
+.env*.local
+*.log
+.DS_Store
+
+# 构建产物 / 工作区工具目录
+*.tsbuildinfo
+.workbuddy/
