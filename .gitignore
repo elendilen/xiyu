@@ -9,3 +9,8 @@ out/
 # 构建产物 / 工作区工具目录
 *.tsbuildinfo
 .workbuddy/
+
+# OpenNext / Cloudflare 部署产物
+.open-next/
+.wrangler/
+.dev.vars

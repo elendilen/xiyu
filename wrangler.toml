@@ -1,0 +1,11 @@
+# OpenNext for Cloudflare 部署配置（M4）
+# 构建产出 .open-next/worker.js + .open-next/assets，由 @opennextjs/cloudflare 适配器生成。
+name = "xiyu"
+main = ".open-next/worker.js"
+
+compatibility_date = "2024-09-23"
+compatibility_flags = ["nodejs_compat"]
+
+[assets]
+directory = ".open-next/assets"
+binding = "ASSETS"
